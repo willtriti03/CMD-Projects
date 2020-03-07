@@ -1,0 +1,80 @@
+@charset "utf-8";
+div#tab {
+    width: 100%;
+}
+
+div#tab > ul {
+    text-decoration: none;
+    width: auto;
+    height: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background: #000;
+}
+
+div#tab > ul > li {
+    list-style: none;
+    width: 20%;
+    height: 40px;
+    text-align: center;
+    font: 1em "Helvetica";
+    color: #000;
+    float: left;
+}
+
+div#tab > ul:after {
+    content: '';
+    display: block;
+    height: 0;
+    width: 0;
+    float: none;
+    clear: both;
+}
+
+div#tab > ul > li > a {
+    display: block;
+    width: auto;
+    height: 40px;
+    padding-top: 17px;
+    color: #fff;
+}
+
+div#tab > ul > li.active {
+    background: url(../image/bg_tab_left.gif) left 10px no-repeat;
+}
+
+div#tab > ul > li.active > a {
+    background: url(../image/bg_tab_right.gif) right 10px no-repeat;
+    color: #000;
+}
+
+div#tab > span> ul {
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 18%;
+    position: absolute;
+    top: 40px;
+    right: 20%
+    
+}
+
+div#tab > span>ul>li.act {
+    text-indent:-10000px;
+    list-style: none;
+    width: 33.33%;
+    height: 40px;
+    text-align: center ;
+    float: right;
+    
+    
+   
+}
+
+div#tab > span>ul > li.act:hover {
+    text-indent: 0px;
+    background-color: white;
+    height: 30px;
+   font: 1em "Helvetica";
+ 
+
+}
