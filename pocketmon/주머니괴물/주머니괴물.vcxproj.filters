@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\MAp">
+      <UniqueIdentifier>{8ffd88e0-5c86-454a-a342-9796a0d906d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Ai">
+      <UniqueIdentifier>{21e06c8a-049f-4a0b-916b-43a92c4c1fcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Console">
+      <UniqueIdentifier>{0fb460aa-97f6-482b-9043-296b06282cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Ani">
+      <UniqueIdentifier>{6c67ae7b-f52c-4109-a033-50917bfeec63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Int">
+      <UniqueIdentifier>{c1d5e318-7202-4a18-b7ed-69c6e1a067f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Interspace">
+      <UniqueIdentifier>{76431e69-afe2-4ed0-be7b-a76362c54547}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main start.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="inter.cpp">
+      <Filter>소스 파일\Interspace</Filter>
+    </ClCompile>
+    <ClCompile Include="1_map.cpp">
+      <Filter>소스 파일\MAp</Filter>
+    </ClCompile>
+    <ClCompile Include="2_map.cpp">
+      <Filter>소스 파일\MAp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ai.cpp">
+      <Filter>소스 파일\Ai</Filter>
+    </ClCompile>
+    <ClCompile Include="Ani.cpp">
+      <Filter>소스 파일\Ani</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>소스 파일\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Int.cpp">
+      <Filter>소스 파일\Int</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Inter.h">
+      <Filter>소스 파일\Interspace</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>소스 파일\MAp</Filter>
+    </ClInclude>
+    <ClInclude Include="Ai.h">
+      <Filter>소스 파일\Ai</Filter>
+    </ClInclude>
+    <ClInclude Include="Ani.h">
+      <Filter>소스 파일\Ani</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>소스 파일\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Int.h">
+      <Filter>소스 파일\Int</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

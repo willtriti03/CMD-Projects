@@ -1,0 +1,10 @@
+﻿빌드 시작: 2015-10-22 오후 7:30:03
+     1>2 노드의 "G:\consol\비밀번호강화기\비밀번호강화기\비밀번호강화기.vcxproj" 프로젝트(Build 대상)입니다.
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\consol\비밀번호강화기\Debug\비밀번호강화기.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\consol\비밀번호강화기\Debug\비밀번호강화기.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\consol\비밀번호강화기\Debug\비밀번호강화기.lib" /MACHINE:X86 "Debug\비밀번호강화기.obj"
+         비밀번호강화기.vcxproj -> G:\consol\비밀번호강화기\Debug\비밀번호강화기.exe
+     1>"G:\consol\비밀번호강화기\비밀번호강화기\비밀번호강화기.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:06.45
